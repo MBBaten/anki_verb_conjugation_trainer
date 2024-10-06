@@ -4,6 +4,12 @@ Simple verb conjugation deck for Anki which makes use of ChatGPT to generate its
 
 Always check the ChatGPT output, prompts do provide hard coded limits and it sometimes deviates from your given ruleset. The best method is to generate 20 flashcards at a time. 
 
+Preparation:
+1. Create an Anki account
+
+2. Import the Anki deck to make sure you have the correct flashcards. 
+
+General method:
 1. Simply copy the prompt to ChatGPT to create new sentences. Change to whatever suits your needs.
 
 2. Copy the output to the UTF8 .csv database.
