@@ -2,6 +2,8 @@
  
 Simple verb conjugation deck for Anki which makes use of ChatGPT to generate its cards. Initially created to train Brazilian Portuguese verb conjugations but is easily changed to whatever language. 
 
+Always check the ChatGPT output, prompts do provide hard coded limits and it sometimes deviates from your given ruleset. The best method is to generate 20 flashcards at a time. 
+
 1. Simply copy the prompt to ChatGPT to create new sentences. Change to whatever suits your needs.
 
 2. Copy the output to the UTF8 .csv database.
