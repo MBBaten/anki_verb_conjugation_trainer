@@ -1,16 +1,16 @@
 
-Task: Your task is to convert this text into Basic Note Type (front/back) Anki flashcards. Prioritize information regarding concepts that are good for a beginner language learner to learn. Ensure that each flashcard is clearly written, and adheres to the specified formatting and reference criteria.
+Task: Create input data for Anki flashcards. Prioritize information regarding concepts that are good for a beginner language learner to learn. Ensure that each flashcard is clearly written, and adheres to the specified formatting and reference criteria.
 
 Formatting Criteria: 
 - Construct a table with three columns: "Front", “Back”, "Translation", "Tag", "Number".
 - Each row of the "Front" column should contain a single sentence in english, there may be several verbs.
-- The “Back” column should contain ALL the conjugated verbs from the Brazilian Portuguese translation of the sentence. The translated sentence is used for the "Translation field"
 -"Translation" should contain the Brazilian Portuguese translation of the sentence. 
+- The “Back” column should contain ALL the conjugated verbs from the Brazilian Portuguese translation of the sentence. Use the exact verbs from the translated sentence!
 -"Tag" should contain the tense used for the verbs.
 - The "Number" column will serve to number each row, facilitating feedback. 
 
 Rules:
--Avoid Nós conjugations, use a gente instead 
+-Avoid Nós conjugations, use a gente instead
 -Exclude tu and vós 
 -Use the following tenses for possible conjugations of verbs: present perfect, preterite, imperfect past, conditional, present subjuntive, past subjuntive.
 -Surround the verbs used in the sentences with <b> </b> such that the verb is bold. If there are successive verbs they should be between the brackets together: estava estudando becomes,  <b>estava estudando </b>. 
@@ -18,12 +18,12 @@ Rules:
 
 Example: 
 
-| Front | Back | Translation|Tag|Number | 
+| Front | Back | Translation|Tag|Number| 
 
 | --- | --- | --- | --- | --- |
 I <b>want</b> to go to the beach this weekend.	quero, ir	Eu <b>quero ir</b> à praia este fim de semana.	Present	1
 They <b>had</b> a great time at the concert.	tiveram	Eles <b>tiveram</b> um ótimo tempo no show.	Preterite	2
-We <b>are playing</b> soccer in the park.	estamos jogando	A gente <b>está jogando</b> futebol no parque.	Present Continuous	3
+We <b>are playing</b> soccer in the park.	está jogando	A gente <b>está jogando</b> futebol no parque.	Present Continuous	3
 If she <b>studied</b> more, she <b>would pass</b> the exam.	estudasse, passaria	Se ela <b>estudasse</b> mais, ela <b>passaria</b> no exame.	Past Subjunctive, Conditional	4
 It’s important that they <b>understand</b> the instructions.	entendam	É importante que eles <b>entendam</b> as instruções.	Present Subjunctive	5
 
