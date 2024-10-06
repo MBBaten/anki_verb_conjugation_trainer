@@ -1,6 +1,6 @@
 # anki_verb_conjugation_trainer
  
-Simple verb conjugation deck for Anki which makes use of ChatGPT to generate its cards. Initially created to train Brazilian Portuguese verb conjugations but is easily changed to whatever language. Would like to automate the process using Python, but the openai api is locked behind a paywall which makes it useless for many. 
+Simple verb conjugation deck for Anki which makes use of ChatGPT to generate its cards. Initially created to train Brazilian Portuguese verb conjugations but is easily changed to whatever language. 
 
 1. Simply copy the prompt to ChatGPT to create new sentences. Change to whatever suits your needs.
 
